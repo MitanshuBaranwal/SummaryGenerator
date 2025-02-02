@@ -1,20 +1,20 @@
-#Summary Generator API
+# Summary Generator API
 This is a Django-based API that leverages OpenAI's GPT-3.5-turbo model to generate summaries and bullet points from provided text. The API is secured using JWT (JSON Web Tokens) for authentication.
 
 Features
-##Generate Summary: 
+## Generate Summary: 
 Accepts a text input and returns a summarized version of the text.
 
-##Generate Bullet Points: 
+## Generate Bullet Points: 
 Accepts a text input and returns bullet points summarizing the text.
 
-##Authentication: 
+## Authentication: 
 Uses JWT for secure access to the API endpoints.
 
-##Database Storage: 
+## Database Storage: 
 Saves the original text and the generated summary or bullet points in a SQLite database.
 
-##Requirements
+## Requirements
 Python 3.8+
 
 Django 4.2+
@@ -25,7 +25,7 @@ OpenAI Python Client
 
 python-dotenv
 
-##Installation
+## Installation
 Clone the repository
 
 ```
