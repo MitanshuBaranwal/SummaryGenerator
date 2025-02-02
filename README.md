@@ -143,21 +143,27 @@ Response:
   "created_at": "2023-10-01T12:34:56Z"
 }
 ```
-Models
+## Models
 TextData
-original_text: The original text provided by the user.
+### original_text: 
+The original text provided by the user.
 
-summary: The generated summary of the text.
+### summary: 
+The generated summary of the text.
 
-bullet_points: The generated bullet points of the text.
+### bullet_points: 
+The generated bullet points of the text.
 
-created_at: The timestamp when the record was created.
+### created_at: 
+The timestamp when the record was created.
 
-Settings
-DEBUG: Set to True for development. Set to False in production.
+## Settings
+### DEBUG: 
+Set to True for development. Set to False in production.
 
-ALLOWED_HOSTS: List of allowed hosts. Update this for production.
+### ALLOWED_HOSTS: 
+List of allowed hosts. Update this for production.
 
-OPENAI_API_KEY: Your OpenAI API key, loaded from the .env file.
+### OPENAI_API_KEY: Your OpenAI API key, loaded from the .env file.
 
-SECRET_KEY: Django secret key. Keep this secure in production.
+### SECRET_KEY: Django secret key. Keep this secure in production.
